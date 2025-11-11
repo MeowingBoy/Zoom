@@ -14,9 +14,9 @@ if ($platform -eq "windows") {
 
 	$gdpid = $null
 	while ([string]::IsNullOrEmpty($gdpid)) {
-        Start-Sleep -Milliseconds 100
-        $gdpid = adb shell pidof com.geode.launcher
-    }
+		Start-Sleep -Milliseconds 100
+		$gdpid = adb shell pidof com.geode.launcher
+	}
 
 	try {
 		adb logcat --pid $gdpid
