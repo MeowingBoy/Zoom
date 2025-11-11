@@ -36,13 +36,13 @@ void SettingsManager::init() {
 		zoomSensitivity = sensitivity;
 	});
 
-    BindManager::get()->registerBindable({
-        "toggle_menu"_spr,
-        "Toggle Pause Menu",
-        "",
-        { Keybind::create(KEY_Home, Modifier::None) },
-        "Zoom",
+	BindManager::get()->registerBindable({
+		"toggle_menu"_spr,
+		"Toggle Pause Menu",
+		"",
+		{ Keybind::create(KEY_Home, Modifier::None) },
+		"Zoom",
 		false
-    });
+	});
 	#endif // GEODE_IS_DESKTOP
 }

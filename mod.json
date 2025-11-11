@@ -20,16 +20,16 @@
 			"importance": "required"
 		},
 		"geode.custom-keybinds": {
-            "version": ">=v1.10.3",
-            "importance": "required",
+			"version": ">=v1.10.3",
+			"importance": "required",
 			"platforms": ["win", "mac"]
-        }
+		}
 	},
 	"resources": {
-        "sprites": [
-            "resources/*.png"
-        ]
-    },
+		"sprites": [
+			"resources/*.png"
+		]
+	},
 	"tags": [
 		"enhancement",
 		"interface",
