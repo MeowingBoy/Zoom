@@ -36,8 +36,8 @@ bool AndroidZoomLayer::init(CCNode* sceneLayer) {
 		return false;
 	}
 
-	if (sceneLayer->getChildByID("AnodroidZoomLayer")) {
-		geode::log::error("AnodroidZoomLayer already exists in scene!");
+	if (sceneLayer->getChildByID("AndroidZoomLayer"_spr)) {
+		geode::log::error("AndroidZoomLayer already exists in scene!");
 		return false;
 	}
 
@@ -79,7 +79,7 @@ bool AndroidZoomLayer::init(CCNode* sceneLayer) {
 
 	backMenu->addChild(backBtn);
 
-	this->setID("AnodroidZoomLayer");
+	this->setID("AndroidZoomLayer"_spr);
 
 	CCDirector::sharedDirector()->getTouchDispatcher()->addTargetedDelegate(this, -250, true);
 	this->setTouchEnabled(true);
