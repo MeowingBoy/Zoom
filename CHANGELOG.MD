@@ -1,5 +1,5 @@
 # 1.3.3
-- Fixed compatibility with Better Touch Prio
+- Fixed compatibility with Better Touch Priority (Shout out [undefined0](https://github.com/undefined06855) for the help)
 
 # 1.3.2
 - Updated to Geode 4.7.0
